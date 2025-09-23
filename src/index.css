@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Montserrat:wght@400;700&display=swap');
 
+@import '@/styles/component.css';
 @import 'tailwindcss';
-
-@theme {
-	--font-*: initial;
-	--font-dmsans: 'DM Sans', 'sans-serif';
-	--font-montserrat: 'Montserrat', 'serif';
-}
 
 html,
 body,

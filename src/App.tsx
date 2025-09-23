@@ -1,9 +1,10 @@
+import NavBar from './components/nav';
+import './index.css';
+
 function App() {
 	return (
-		<div className='flex-col justify-center gap-2.5'>
-			<h1 className='text-2xl'>My Fitness Progect</h1>
-			<p className='font-montserrat'>Monserrat</p>
-			<p className='font-dmsans'>Dm sans</p>
+		<div className='app text-gray-300 bg-gray-50'>
+			<NavBar />
 		</div>
 	);
 }
